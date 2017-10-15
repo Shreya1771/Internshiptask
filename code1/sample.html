@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sp</title>  
+  
+      <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+ <div id="background">
+  <svg id="svg1" viewBox="0 0 1000 600">
+  
+  <rect id="bgrect" x="0" y="0" width="1000" height="600" fill="#1D6981"/> 
+  <polygon id="2" points="1000,600 1000,600 100,600" fill="#73BBD2"/>
+  <polygon id="3" points="0,0 0,0 400,0" fill="#072E3B"/>
+  <polygon id="1" points="0,600 0,600 960,600 960,600" fill="white"/>
+  <polygon id="p2" points="600,600 100,600 1000,130 1000,130 1000,130" fill="#73BBD2" visibility="hidden"/>
+  <polygon id="r1" points="0,600 0,600 960,600" fill="#1D6981"/>
+  <polygon id="r2" points="1000,600 1000,600 100,600 100,600 100,600" fill="#072E3B"/>
+  <polygon id="p32" points="1000,600 1000,600 100,600" fill="#73BBD2"/>
+  <polygon id="p31" points="0,600 0,600 960,600 960,600" fill="#BFE3F3"/>
+  <g id="movup">
+  <rect id="wrapper" x="490" y="440" width="50" height="25" fill="white" visibility="hidden" onClick="nextpage()"/>
+  <polygon id="arrow" points="516,460 496,443 516,460 536,443" onClick="nextpage()" stroke="black" stroke-width="2"></polygon>
+  <polygon id="diag" points="516,383 449,350 516,383 581,350" fill="#AFCA36" visibility="hidden" onClick="more()"></polygon>  
+  <g>
+  </svg>   
+
+ </div>
+
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+  <script src="animate.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+
+</body>
+</html>
